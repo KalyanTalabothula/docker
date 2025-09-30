@@ -11,5 +11,5 @@ managedNodeGroups:
     desiredCapacity: 3
     spot: true
 
-# if you are not given spot:true --> then it will become as a On-demand-Instance, so Cost anedi yekkuava padutumdhi.
 # spot: ture is only used for Development environment. 
+# if you are not given spot:true --> then it will become as a On-demand-Instance, so Cost anedi yekkuava padutumdhi. Moreover On-demand antee ika yavvaru tisukoru mana Instances ni. 
