@@ -10,3 +10,6 @@ managedNodeGroups:
     instanceTypes: ["m5.large", "c3.large","c4.large","c5.large"]
     desiredCapacity: 3
     spot: true
+
+# if you are not given spot:true --> then it will become as a On-demand-Instance, so Cost anedi yekkuava padutumdhi.
+# spot: ture is only used for Development environment. 
